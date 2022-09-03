@@ -1,0 +1,143 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage[noadjust]{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{array,etoolbox,multirow}
+\usepackage{float}
+\usepackage{caption} 
+\usepackage{multirow}
+\captionsetup[table]{skip=6pt}
+
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+\title{Systematic literature review search terms table for the Paper Titled: Application of Microservices Patterns to Big Data Systems\\
+% {\footnotesize \textsuperscript{*}Note: Sub-titles are not captured in Xplore and
+% should not be used}
+% \thanks{Identify applicable funding agency here. If none, delete this.}
+}
+
+% \author{\IEEEauthorblockN{1\textsuperscript{st} Pouya Ataei}
+% \IEEEauthorblockA{\textit{School of Engineering, Computer and Mathematical Science} \\
+% \textit{Auckland University of Technology}\\
+% Auckland, New Zealand \\
+% pouya.ataei@aut.ac.nz}
+% \and
+% \IEEEauthorblockN{2\textsuperscript{nd} Daniel Staegemann}
+% \IEEEauthorblockA{\textit{Magdeburg Research and Competence Cluster VLBA} \\
+% \textit{Otto-von-Guericke University Magdeburg}\\
+% Magdeburg, Germany \\
+% daniel.staegemann@ovgu.de}}
+
+\maketitle
+
+\subsection{Search strategy}
+
+Table \ref{table:searchTerms} depicts the resulting mapping of databases and search terms. If a term in the “Search Term” column is printed in bold, this indicates a field of the search mask, where the following text is input. In case nothing is printed in bold, this means the whole term can be filled into the search bar without modification. As can be seen, due to the focus of this study, the term “microservice” or its plural always had to be included in the title.
+
+\begin{table}[ht]
+    \renewcommand{\arraystretch}{1.5}
+    \caption[]{Mapping of databases/registers and search terms}
+    \begin{tabular}{|p{5cm}|p{10cm}|p{2cm}|}
+        \hline
+        Database/Register & Search Term & Records \\ 
+
+        \hline
+        ACM Digital Library (“The ACM Full-Text Collection”, not “The ACM Guide to Computing Literature
+        &  
+        
+        
+        1) [Title: microservice*] AND [[Title: pattern*] OR [Title: architecture*] OR [Title: design*] OR [Title: building block*] OR [Title: best practice*]]
+        
+        \hspace{1cm}
+
+        2) [Title: microservice*] AND [[Abstract: pattern*] OR [Abstract: architecture*] OR [Abstract: design*] OR [Abstract: building block*] OR [Abstract: best practice*]]
+
+        \hspace{1cm}
+
+        3) [Title: microservice*] AND [[Keywords: pattern*] OR [Keywords: architecture*] OR [Keywords: design*] OR [Keywords: building block*] OR [Keywords: best practice*]]
+        & 
+        1) 91
+
+
+
+        2) 194
+
+
+
+        3) 65
+        
+        \\ 
+
+        \hline
+        AISeL & \textbf{Title}: microservice OR microservices & 10 \\ 
+        \hline
+
+        IEEE Xplore & "Document Title": microservice*  AND ("All Metadata": pattern* OR "All Metadata": architecture* OR "All Metadata": design* OR "All Metadata": building block* OR "All Metadata": best practice*)  & 759 \\ 
+        \hline
+
+        JSTOR & 
+        
+        \textbf{Title:} microservice 
+
+        \textbf{Title:} microservices 
+        & 
+        
+        1) 0
+
+
+        2) 0
+        
+        \\ 
+
+        \hline
+
+        ScienceDirect & 
+        
+        1) \textbf{Title, abstract, keywords}: pattern OR architecture OR design OR (building block) OR (best practice)
+
+           \textbf{Title}: microservice OR microservices
+
+        2) \textbf{Title, abstract, keywords}: patterns OR architectures OR designs OR (building blocks) OR (best practices)
+
+            \textbf{Title}: microservice OR microservices
+        & 
+        1) 79
+
+        2) 76
+        \\ 
+
+        \hline
+
+        Scopus & ( TITLE-ABS-KEY ( pattern*  OR  architecture*  OR  design*  OR  ( "building block" )  OR  ( "building blocks" )  OR  ( "best practice" )  OR  ( "best practices" ) )  AND  TITLE ( microservice* ) ) & 1534 \\ 
+        \hline
+
+        SpringerLink & \textbf{Title}: microservice*
+
+
+        \textbf{With at least one of the words}: pattern* architecture* design* "building block" "building blocks" "best practice" "best practices
+         & 433 \\ 
+        \hline
+
+        Wiley & \textbf{Title}: microservice* & 38 \\ 
+
+        \hline
+    \end{tabular}
+    
+    \label{table:searchTerms}
+\end{table}
+
+\end{document}
+        
+
+
+
+
+
